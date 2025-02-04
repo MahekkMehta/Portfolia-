@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 50px;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #00bcd4;
+}
+
+.contact-banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+}
+
+.contact-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-banner p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap:9px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #2c2c2c;
+    color: white;
+    font-size: 1em;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00bcd4;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0097a7;
+}
+
+.resume-banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+}
+
+.resume-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.resume-banner p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.resume-container {
+    text-align: center;
+    margin: 40px auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.resume-container button {
+    padding: 12px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.resume-container button:hover {
+    background-color: #0097a7;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #222;
+  }
+  
